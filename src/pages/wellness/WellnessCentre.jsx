@@ -1,3 +1,4 @@
+import { API_BASE_URL } from '../../lib/api';
 import { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import { supabase } from '../../lib/supabase';
@@ -602,7 +603,7 @@ Progress: ${progress}%.
   // =========================================
 
   async function requestAI(input) {
-    const response = await fetch('http://localhost:5000/api/ai/test', {
+    const response = await fetch(`${API_BASE_URL}/api/ai/test`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
