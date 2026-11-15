@@ -216,7 +216,7 @@ flowchart LR
 
 **The above features and their pipeline integrations are planned for completion during the hackathon.**
 
-### 🚀 **CollabNest** is deployed and hosted on [Vercel](https://vercel.com/).
+### **CollabNest** is deployed and hosted on [Vercel](https://vercel.com/).
  Want to explore all the features of CollabNest? Simply sign in using your personal Gmail account and get started!
 
 
