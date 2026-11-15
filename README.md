@@ -216,6 +216,7 @@ Unlike platforms that primarily focus on influencer marketing, brand partnership
 - ❤️ **Burnout Prevention:** Encourage realistic goals, breaks, and sustainable content creation.
 - 📈 **Progress Timeline:** Track content creation efforts, views, and follower growth.
 
-Our mission is not just to help creators gain followers, but to help them grow together without burning out.
+**Our mission is not just to help creators gain followers, but to help them grow together without burning out.**
+
 ![CollabNest Technical Workflow](./src/Financial-Growth-Dashboard.png)
 
