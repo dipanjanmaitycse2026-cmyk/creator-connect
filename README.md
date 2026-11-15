@@ -171,6 +171,14 @@ flowchart LR
 ## 7. Demo
 
 [🎥 View Project Demo](https://drive.google.com/file/d/1fiYN9h72gu4Katv28spxdXwioKgXSMSc/view?usp=sharing)
+## **Hackathon Implementation Roadmap:**
+
+- Analytics – To be completed during the hackathon.
+- Wellness Centre – To be completed during the hackathon.
+- Messaging System – To be completed during the hackathon.
+- Pipeline Integration & Connection – Backend and API pipeline connections will also be implemented during the hackathon.
+
+**The above features and their pipeline integrations are planned for completion during the hackathon.**
 
 ## 8. Unique Selling Proposition
 
