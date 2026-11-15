@@ -181,11 +181,9 @@ flowchart LR
 - Pipeline Integration & Connection – Backend and API pipeline connections will also be implemented during the hackathon.
 
 **The above features and their pipeline integrations are planned for completion during the hackathon.**
-## 🌐 Live Demo
 
 🚀 **CollabNest** is deployed and hosted on [Vercel](https://vercel.com/).
 
-🔗 [Visit CollabNest](https://creator-connect-green.vercel.app/login)
 
 ## 8. Unique Selling Proposition
 
