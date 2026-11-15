@@ -145,7 +145,7 @@ flowchart LR
 
 
 
-**🤖 AI-Powered Data Processing:** Powered by **Google Gemini AI**, ColllabNest analyses user inputs to generate intelligent market insights, creative content ideas and personalised weekly schedules, prioritising mental well-being and sustainable creator growth.
+## **🤖**AI-Powered Data Processing: CollabNest leverages Adaption Labs and DeepSeek AI to analyze creator inputs, generate intelligent market insights, suggest creative content ideas, and create personalized weekly schedules while prioritizing mental well-being and sustainable creator growth.
 
 ## 🛠️ 
 ## 4. Tools and Technologies
