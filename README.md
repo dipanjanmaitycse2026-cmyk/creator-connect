@@ -11,7 +11,7 @@
 6. [Technical Architecture](#6-technical-architecture)
 7. [Demo](#7-demo)
 8. [Unique Selling Proposition](#8-unique-selling-proposition)
-9. [Author & Contact](#9-author--contact)
+
 
 
 
@@ -217,3 +217,4 @@ Unlike platforms that primarily focus on influencer marketing, brand partnership
 - 📈 **Progress Timeline:** Track content creation efforts, views, and follower growth.
 
 Our mission is not just to help creators gain followers, but to help them grow together without burning out.
+
