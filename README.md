@@ -172,7 +172,7 @@ REST APIs  --->  Backend Communication
 
 ## 7. Demo
 
-[🎥 View Project Demo](https://drive.google.com/file/d/11YIesYsHbxcgAKbCkrL9Ze3T4LT4zyH-/view?usp=drivesdk)
+[🎥 View Project Demo](https://drive.google.com/file/d/1fiYN9h72gu4Katv28spxdXwioKgXSMSc/view?usp=sharing)
 
 ## 8. Unique Selling Proposition
 
