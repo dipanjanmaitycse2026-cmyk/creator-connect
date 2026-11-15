@@ -1,0 +1,417 @@
+
+.oto-page {
+  min-height: 100vh;
+  padding: 36px 6%;
+  background: #f6f7fb;
+  color: #20243a;
+}
+
+.oto-header {
+  margin-bottom: 30px;
+}
+
+.oto-back-btn {
+  border: 0;
+  background: transparent;
+  color: #646b82;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.oto-eyebrow {
+  color: #7774e8;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+.oto-heading h1 {
+  margin: 8px 0;
+  font-size: clamp(26px, 4vw, 36px);
+}
+
+.oto-heading p,
+.oto-section-description {
+  color: #7b8093;
+  margin: 0;
+}
+
+.oto-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  border-bottom: 1px solid #e5e7ef;
+  margin-bottom: 30px;
+}
+
+.oto-tabs button {
+  border: 0;
+  background: transparent;
+  padding: 14px 17px;
+  color: #777d91;
+  cursor: pointer;
+  font-weight: 600;
+  border-bottom: 3px solid transparent;
+}
+
+.oto-tabs button.active {
+  color: #6965dc;
+  border-bottom-color: #6965dc;
+}
+
+.oto-count {
+  margin-left: 7px;
+  background: #e9e8ff;
+  color: #625ed1;
+  padding: 2px 7px;
+  border-radius: 20px;
+  font-size: 11px;
+}
+
+.oto-section {
+  max-width: 1100px;
+}
+
+.oto-section h2 {
+  font-size: 22px;
+  margin: 0 0 8px;
+}
+
+.oto-section-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 22px;
+}
+
+.oto-search {
+  width: min(340px, 100%);
+  padding: 12px 15px;
+  border: 1px solid #e0e3ed;
+  border-radius: 10px;
+  outline: none;
+  background: white;
+}
+
+.oto-search:focus,
+.oto-modal input:focus,
+.oto-modal textarea:focus {
+  border-color: #7774e8;
+}
+
+.oto-creator-list,
+.oto-request-list {
+  display: grid;
+  gap: 15px;
+}
+
+.oto-creator-card,
+.oto-request-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 22px;
+  border: 1px solid #e9eaf1;
+  border-radius: 15px;
+  background: white;
+  box-shadow: 0 5px 20px rgba(30, 35, 70, 0.035);
+}
+
+.oto-avatar {
+  flex: 0 0 58px;
+  width: 58px;
+  height: 58px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 50%;
+  background: #e9e8ff;
+  color: #625ed1;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.oto-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.oto-creator-info,
+.oto-request-details {
+  flex: 1;
+  min-width: 0;
+}
+
+.oto-creator-info h3,
+.oto-request-details h3 {
+  margin: 0 0 5px;
+  font-size: 17px;
+}
+
+.oto-username,
+.oto-bio,
+.oto-request-details p {
+  color: #858a9d;
+  font-size: 13px;
+  margin: 4px 0;
+}
+
+.oto-niches {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 10px;
+}
+
+.oto-niches span {
+  background: #f0efff;
+  color: #6561ce;
+  padding: 5px 9px;
+  border-radius: 20px;
+  font-size: 11px;
+}
+
+.oto-primary-btn,
+.oto-secondary-btn,
+.oto-danger-btn {
+  border: 0;
+  border-radius: 9px;
+  padding: 11px 17px;
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.oto-primary-btn {
+  background: #706ce2;
+  color: white;
+}
+
+.oto-primary-btn:hover {
+  background: #5e5acb;
+}
+
+.oto-secondary-btn {
+  background: #efeff5;
+  color: #676d81;
+}
+
+.oto-danger-btn {
+  background: #fff0f0;
+  color: #d44e58;
+}
+
+.oto-primary-btn:disabled,
+.oto-secondary-btn:disabled,
+.oto-danger-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.oto-card-action {
+  flex-shrink: 0;
+}
+
+.oto-request-card {
+  justify-content: space-between;
+}
+
+.oto-request-details blockquote {
+  margin: 12px 0;
+  padding: 10px 14px;
+  border-left: 3px solid #7774e8;
+  background: #f7f7ff;
+  color: #555b70;
+  font-size: 13px;
+}
+
+.oto-date {
+  display: block;
+  color: #888da0;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.oto-request-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+.oto-status {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.oto-status.pending {
+  color: #a16a18;
+  background: #fff5df;
+}
+
+.oto-status.accepted {
+  color: #21845c;
+  background: #e5f7ee;
+}
+
+.oto-empty {
+  padding: 45px 20px;
+  text-align: center;
+  color: #858a9d;
+  background: white;
+  border: 1px dashed #dfe1eb;
+  border-radius: 14px;
+  margin-top: 20px;
+}
+
+.oto-alert {
+  padding: 13px 16px;
+  border-radius: 9px;
+  margin-bottom: 18px;
+  font-size: 13px;
+}
+
+.oto-alert.error {
+  background: #fff0f0;
+  color: #c33f4b;
+}
+
+.oto-alert.success {
+  background: #e9f8ef;
+  color: #21845c;
+}
+
+.oto-modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  background: rgba(20, 23, 43, 0.55);
+}
+
+.oto-modal {
+  position: relative;
+  width: min(500px, 100%);
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: 30px;
+  border-radius: 18px;
+  background: white;
+  box-shadow: 0 20px 70px rgba(0, 0, 0, 0.2);
+}
+
+.oto-modal h2 {
+  margin: 10px 0;
+  font-size: 23px;
+}
+
+.oto-modal > p {
+  color: #858a9d;
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+
+.oto-modal-close {
+  position: absolute;
+  top: 15px;
+  right: 18px;
+  border: 0;
+  background: transparent;
+  color: #777d91;
+  font-size: 27px;
+  cursor: pointer;
+}
+
+.oto-modal form {
+  display: grid;
+  gap: 10px;
+}
+
+.oto-modal label {
+  margin-top: 8px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.oto-modal label span {
+  color: #969bad;
+  font-weight: 400;
+}
+
+.oto-modal input,
+.oto-modal textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #e0e3ed;
+  border-radius: 9px;
+  padding: 12px;
+  font: inherit;
+  font-size: 13px;
+  outline: none;
+  resize: vertical;
+}
+
+.oto-modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+@media (max-width: 700px) {
+  .oto-page {
+    padding: 25px 5%;
+  }
+
+  .oto-section-heading {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .oto-search {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .oto-creator-card,
+  .oto-request-card {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .oto-card-action,
+  .oto-card-action button {
+    width: 100%;
+  }
+
+  .oto-request-actions {
+    width: 100%;
+  }
+
+  .oto-request-actions button {
+    flex: 1;
+  }
+}
+.oto-status.rejected {
+  color: #c33f4b;
+  background: #fff0f0;
+}
+
+.oto-status.accepted {
+  color: #21845c;
+  background: #e5f7ee;
+}
+
+.oto-status.pending {
+  color: #a16a18;
+  background: #fff5df;
+}

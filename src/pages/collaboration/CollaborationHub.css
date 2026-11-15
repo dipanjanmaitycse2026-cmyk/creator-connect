@@ -1,0 +1,146 @@
+
+.collab-hub-page {
+  min-height: 100vh;
+  padding: 45px 7%;
+  background: #f8f7ff;
+  color: #29243d;
+}
+
+.collab-hub-header {
+  max-width: 760px;
+  margin: 30px auto 45px;
+  text-align: center;
+}
+
+.collab-hub-back {
+  display: block;
+  margin-bottom: 35px;
+  padding: 10px 17px;
+  border: 1px solid #e5e0f2;
+  border-radius: 10px;
+  background: white;
+  color: #554879;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.collab-hub-eyebrow {
+  color: #8b76c5;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.collab-hub-header h1 {
+  margin: 14px 0;
+  font-size: clamp(30px, 5vw, 46px);
+}
+
+.collab-hub-header p {
+  color: #77718a;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.collab-options {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+  max-width: 1150px;
+  margin: auto;
+}
+
+.collab-option-card {
+  min-height: 245px;
+  padding: 25px;
+  border: 1px solid #e9e4f3;
+  border-radius: 20px;
+  background: white;
+  color: #29243d;
+  text-align: left;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.collab-option-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(72, 53, 115, 0.09);
+}
+
+.collab-option-active {
+  border-color: #b9a8ed;
+}
+
+.collab-option-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.collab-option-icon {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  background: #f0ebff;
+  color: #795db9;
+  font-size: 25px;
+}
+
+.collab-option-status {
+  padding: 7px 11px;
+  border-radius: 20px;
+  background: #f1eff5;
+  color: #77718a;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.status-available {
+  background: #e8f7ed;
+  color: #328451;
+}
+
+.collab-option-card h2 {
+  margin: 0 0 10px;
+  font-size: 19px;
+}
+
+.collab-option-card p {
+  min-height: 48px;
+  margin: 0;
+  color: #77718a;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.collab-option-arrow {
+  display: inline-block;
+  margin-top: 22px;
+  color: #8066bd;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  .collab-options {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .collab-hub-page {
+    padding: 25px 18px;
+  }
+
+  .collab-options {
+    grid-template-columns: 1fr;
+  }
+
+  .collab-option-card {
+    min-height: 220px;
+  }
+}
