@@ -157,16 +157,14 @@ flowchart LR
 - **Programming Languages:** HTML, CSS, TypeScript
 - **Development Tools:** Git, GitHub and Visual Studio Code.
 
-## 5. Method-Workflow
+### 5. Method-Workflow
 
- Technology Integration:
+**Technology Integration:**
 
-Supabase  --->  Data Storage
-
-Gemini AI  --->  AI-Powered Suggestions
-
-REST APIs  --->  Backend Communication
-
+- Supabase ---> Data Storage
+- Adaption Labs + DeepSeek AI ---> AI-Powered Suggestions & Content Analysis
+- REST APIs ---> Backend Communication
+### 6. Technical Architecture
 
 ![CollabNest Technical Workflow](./src/workflow.png)
 
