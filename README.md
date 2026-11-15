@@ -104,8 +104,8 @@ flowchart TD
     linkStyle default stroke:#a78bfa,stroke-width:2.5px
 
 ```
-
-
+## Pictorial Representation 
+![CollabNest Technical Workflow](./src/Solution.png)
 
 ## 📊 3. Dataset
 
