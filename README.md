@@ -190,7 +190,6 @@ flowchart LR
 
 <p align="center">
   <img src="https://img.shields.io/badge/Built%20With-React%20%7C%20Node.js%20%7C%20AI-blueviolet?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Powered%20By-CollabNest-8A2BE2?style=for-the-badge" />
 </p>
 
 
