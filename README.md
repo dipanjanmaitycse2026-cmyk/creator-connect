@@ -37,8 +37,6 @@ Small content creators often struggle with:
 
 **Our Solution:**
 
-**Our Solution:**
-
 CollabNest helps creators prevent burnout, manage stress and maintain motivation through AI-powered, personalized well-being support and energy-based planning, enabling sustainable growth without compromising mental health.
 
 ```mermaid
