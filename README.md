@@ -37,7 +37,9 @@ Small content creators often struggle with:
 
 **Our Solution:**
 
-CollabNest brings audience intelligence, AI-powered content planning and creator growth tracking into one platform.
+**Our Solution:**
+
+CollabNest helps creators prevent burnout, manage stress and maintain motivation through AI-powered, personalized well-being support and energy-based planning, enabling sustainable growth without compromising mental health.
 
 ```mermaid
 
