@@ -182,7 +182,7 @@ flowchart LR
 
 **The above features and their pipeline integrations are planned for completion during the hackathon.**
 
-🚀 **CollabNest** is deployed and hosted on [Vercel](https://vercel.com/).
+### 🚀 **CollabNest** is deployed and hosted on [Vercel](https://vercel.com/).
 
 
 ## 8. Unique Selling Proposition
