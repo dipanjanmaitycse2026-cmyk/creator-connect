@@ -150,12 +150,14 @@ flowchart LR
 ## 🛠️ 
 ## 4. Tools and Technologies
 
-- **AI Integration:** Adaption Labs & DeepSeek AI – for market opportunity analysis, creative content suggestions, audience insights and AI-powered weekly planning.
-- **Database & Backend Services:** Supabase – for storing creator profiles, weekly plans, daily tasks and collaboration data.
-- **API Development:** REST APIs – for creator discovery, collaboration requests, open listings and weekly plan management.
-- **Frontend:** HTML5, CSS3.
-- **Programming Languages:** HTML, CSS, TypeScript.
-- **Development Tools:** Git, GitHub and Visual Studio Code.
+- **Frontend Development:** React.js 19, JavaScript (ES Modules), HTML5 and CSS3 – for building the interactive and responsive creator dashboard.
+- **Frontend Build Tool:** Vite – for fast development and frontend build management.
+- **Backend Development:** Node.js and Express.js – for server-side logic, API handling and backend communication.
+- **AI Integration:** Adaption Labs API with DeepSeek AI – for AI-powered suggestions, content analysis and intelligent creator insights.
+- **Database & Backend Services:** Supabase – for creator profiles, planning data and collaboration information.
+- **API Communication:** REST APIs – for communication between the frontend, backend and AI services.
+- **Development Tools:** Git, GitHub, Visual Studio Code and ESLint.
+- **Deployment:** Vercel – for hosting the web application.
 
 ### 5. Method-Workflow
 
