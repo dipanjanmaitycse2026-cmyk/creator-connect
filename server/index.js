@@ -8,12 +8,28 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 
+// Frontend URLs allowed to access the backend
+const allowedOrigins = (
+  process.env.FRONTEND_URL || 'http://localhost:5173'
+)
+  .split(',')
+  .map(origin => origin.trim())
+  .filter(Boolean);
+
+// CORS configuration
 app.use(cors({
-  origin: 'http://localhost:5173'
+  origin: (origin, callback) => {
+    if (!origin || allowedOrigins.includes(origin)) {
+      return callback(null, true);
+    }
+
+    return callback(new Error('Origin not allowed by CORS'));
+  }
 }));
 
-app.use(express.json());
+app.use(express.json({ limit: '1mb' }));
 
+// Health check
 app.get('/api/health', (req, res) => {
   res.json({
     success: true,
@@ -21,12 +37,12 @@ app.get('/api/health', (req, res) => {
   });
 });
 
-// Auto Scientist connection test
+// Auto Scientist AI integration
 app.post('/api/ai/test', async (req, res) => {
   try {
     const { input } = req.body;
 
-    if (!input || typeof input !== 'string') {
+    if (!input || typeof input !== 'string' || !input.trim()) {
       return res.status(400).json({
         success: false,
         error: 'A valid input string is required.'
@@ -52,31 +68,37 @@ app.post('/api/ai/test', async (req, res) => {
         },
         body: JSON.stringify({
           model: 'stack:deepseek-v4-flash-1',
-          input
-        })
+          input: input.trim()
+        }),
+        signal: AbortSignal.timeout(60000)
       }
     );
 
     const data = await response.json();
 
     if (!response.ok) {
-      return res.status(response.status).json({
+      console.error(
+        'Auto Scientist API error:',
+        response.status
+      );
+
+      return res.status(502).json({
         success: false,
-        error: data
+        error: 'The AI provider could not process the request.'
       });
     }
 
     const aiText = data.output
-  ?.flatMap(item => item.content || [])
-  .filter(item => item.type === 'output_text')
-  .map(item => item.text)
-  .join('\n');
+      ?.flatMap(item => item.content || [])
+      .filter(item => item.type === 'output_text')
+      .map(item => item.text)
+      .join('\n');
 
-return res.json({
-  success: true,
-  response: aiText || 'No text response received.',
-  responseId: data.id
-});
+    return res.json({
+      success: true,
+      response: aiText || 'No text response received.',
+      responseId: data.id
+    });
 
   } catch (error) {
     console.error('Auto Scientist error:', error.message);
@@ -88,6 +110,7 @@ return res.json({
   }
 });
 
+// Start server
 app.listen(PORT, () => {
   console.log(`Creator Connect API running on port ${PORT}`);
 });
